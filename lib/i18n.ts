@@ -7,7 +7,7 @@ export const content = {
       getInTouch: 'Get in Touch',
     },
     hero: {
-      greeting: 'I am',
+      greeting: 'Hi! I am',
       name: 'Mukul Sharma',
       tagline: 'Chemistry Educator | B.Ed Trained | Making Science Simple',
       description:
@@ -108,7 +108,7 @@ export const content = {
       getInTouch: 'संपर्क करें',
     },
     hero: {
-      greeting: 'मैं हूं',
+      greeting: 'नमस्ते! मैं हूं',
       name: 'मुकुल शर्मा',
       tagline: 'केमिस्ट्री शिक्षक | बी.एड प्रशिक्षित | विज्ञान को आसान बनाना',
       description:
