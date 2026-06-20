@@ -46,6 +46,9 @@ export default function Header() {
           <a href="#education" className="text-sm lg:text-base text-foreground/80 hover:text-accent transition-all duration-300 hover:scale-105">
             {t.nav.education}
           </a>
+          <a href="#testimonials" className="text-sm lg:text-base text-foreground/80 hover:text-accent transition-all duration-300 hover:scale-105">
+            {t.nav.testimonials}
+          </a>
           <a href="#contact" className="text-sm lg:text-base text-foreground/80 hover:text-accent transition-all duration-300 hover:scale-105">
             {t.nav.contact}
           </a>
@@ -92,6 +95,9 @@ export default function Header() {
             </a>
             <a href="#education" onClick={handleNavClick} className="block text-foreground/80 hover:text-accent transition-all duration-300 py-2 px-2 rounded-lg hover:bg-accent/10">
               {t.nav.education}
+            </a>
+            <a href="#testimonials" onClick={handleNavClick} className="block text-foreground/80 hover:text-accent transition-all duration-300 py-2 px-2 rounded-lg hover:bg-accent/10">
+              {t.nav.testimonials}
             </a>
             <a href="#contact" onClick={handleNavClick} className="block text-foreground/80 hover:text-accent transition-all duration-300 py-2 px-2 rounded-lg hover:bg-accent/10">
               {t.nav.contact}

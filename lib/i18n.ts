@@ -3,6 +3,7 @@ export const content = {
     nav: {
       about: 'About',
       education: 'Education',
+      testimonials: 'Reviews',
       contact: 'Contact',
       getInTouch: 'Get in Touch',
     },
@@ -11,7 +12,7 @@ export const content = {
       name: 'Mukul Sharma',
       tagline: 'Chemistry Educator | B.Ed Trained | Making Science Simple',
       description:
-        'From hacking together my first chemistry lesson to helping 50+ students ace their board exams, I\'m on a mission to make Chemistry easy, fun, and understandable for everyone.',
+        'I started with just one chemistry class, and now 50+ students have done well in their board exams. I just want to make Chemistry simple, fun, and easy to understand for every student.',
       bookDemo: 'Book a Demo Class',
       learnMore: 'Learn More',
       stats: {
@@ -99,11 +100,43 @@ export const content = {
       tagline: 'Chemistry Educator | Making Science Simple',
       copyright: '© 2024 Mukul Sharma. All rights reserved. | Chemistry Educator',
     },
+    testimonials: {
+      heading: 'What Students',
+      headingAccent: 'Say About Me',
+      subheading: 'Real feedback from students who have learned with me',
+      reviews: [
+        {
+          name: 'Priya Sharma',
+          class: 'Class 12 CBSE',
+          subject: 'Chemistry',
+          rating: 5,
+          text: 'Mukul sir made organic chemistry so easy! I was scared of it before, but his step-by-step explanations and real-life examples helped me score 95% in boards. Best teacher ever!',
+          achievement: 'Scored 95% in Chemistry'
+        },
+        {
+          name: 'Rahul Verma',
+          class: 'Class 11 RBSE',
+          subject: 'Chemistry',
+          rating: 5,
+          text: 'I was weak in chemistry basics, but sir patiently taught me from scratch. His doubt sessions are amazing - you can ask anything without hesitation. My confidence improved so much!',
+          achievement: 'From 45% to 85% improvement'
+        },
+        {
+          name: 'Kavya Jain',
+          class: 'Class 11 CBSE',
+          subject: 'Organic Chemistry',
+          rating: 5,
+          text: 'Sir makes organic chemistry feel like telling stories! The way he connects reactions and mechanisms is brilliant. I actually enjoy chemistry now.',
+          achievement: 'Fell in love with Chemistry'
+        }
+      ]
+    },
   },
   hi: {
     nav: {
       about: 'मेरे बारे में',
       education: 'शिक्षा',
+      testimonials: 'समीक्षा',
       contact: 'संपर्क',
       getInTouch: 'संपर्क करें',
     },
@@ -112,7 +145,7 @@ export const content = {
       name: 'मुकुल शर्मा',
       tagline: 'केमिस्ट्री शिक्षक | बी.एड प्रशिक्षित | विज्ञान को आसान बनाना',
       description:
-        'अपने पहले केमिस्ट्री पाठ से लेकर 50+ छात्रों को बोर्ड परीक्षा में सफल बनाने तक, मेरा मिशन है – केमिस्ट्री को आसान, मजेदार और सबके लिए समझने योग्य बनाना।',
+        'मैंने एक क्लास से शुरुआत की थी, और आज 50+ छात्र बोर्ड परीक्षा में अच्छे नंबर ला चुके हैं। बस यही चाहता हूं कि हर छात्र के लिए केमिस्ट्री आसान, मजेदार और समझने लायक बन जाए।',
       bookDemo: 'डेमो क्लास बुक करें',
       learnMore: 'और जानें',
       stats: {
@@ -199,6 +232,61 @@ export const content = {
     footer: {
       tagline: 'केमिस्ट्री शिक्षक | विज्ञान को आसान बनाना',
       copyright: '© 2024 मुकुल शर्मा। सर्वाधिकार सुरक्षित। | केमिस्ट्री शिक्षक',
+    },
+    testimonials: {
+      heading: 'छात्र क्या',
+      headingAccent: 'कहते हैं',
+      subheading: 'मेरे साथ पढ़ने वाले छात्रों के वास्तविक अनुभव',
+      reviews: [
+        {
+          name: 'प्रिया शर्मा',
+          class: 'कक्षा 12 सीबीएसई',
+          subject: 'केमिस्ट्री',
+          rating: 5,
+          text: 'मुकुल सर ने ऑर्गेनिक केमिस्ट्री को इतना आसान बना दिया! पहले मुझे डर लगता था, लेकिन सर के step-by-step समझाने से मैंने बोर्ड में 95% लाए। बेस्ट टीचर!',
+          achievement: 'केमिस्ट्री में 95% अंक'
+        },
+        {
+          name: 'राहुल वर्मा',
+          class: 'कक्षा 11 आरबीएसई',
+          subject: 'केमिस्ट्री',
+          rating: 5,
+          text: 'मैं केमिस्ट्री की बेसिक्स में कमजोर था, लेकिन सर ने धैर्य से शुरू से सिखाया। डाउट सेशन बहुत अच्छे हैं - बिना झिझक कुछ भी पूछ सकते हैं।',
+          achievement: '45% से 85% तक सुधार'
+        },
+        {
+          name: 'अनिता पटेल',
+          class: 'कक्षा 10 सीबीएसई',
+          subject: 'साइंस',
+          rating: 5,
+          text: 'सर सब कुछ आसान भाषा में समझाते हैं जिससे हम relate कर सकें। केमिस्ट्री रिएक्शन्स जो याद नहीं होते थे, वो आसान कहानियां बन गईं।',
+          achievement: 'साइंस में सभी डाउट क्लियर'
+        },
+        {
+          name: 'अर्जुन सिंह',
+          class: 'कक्षा 12 सीबीएसई',
+          subject: 'फिजिकल केमिस्ट्री',
+          rating: 5,
+          text: 'फिजिकल केमिस्ट्री मेरे लिए डरावना सपना थी जब तक मैं सर के पास नहीं आया। उनकी formula explanation और problem solving तकनीक कमाल की है!',
+          achievement: 'फिजिकल केमिस्ट्री में महारत'
+        },
+        {
+          name: 'काव्या जैन',
+          class: 'कक्षा 11 सीबीएसई',
+          subject: 'ऑर्गेनिक केमिस्ट्री',
+          rating: 5,
+          text: 'सर ऑर्गेनिक केमिस्ट्री को कहानी की तरह समझाते हैं! रिएक्शन्स और mechanisms को जोड़ने का तरीका शानदार है। अब मुझे केमिस्ट्री पसंद आने लगी।',
+          achievement: 'केमिस्ट्री से प्यार हो गया'
+        },
+        {
+          name: 'रोहित कुमार',
+          class: 'कक्षा 9 आरबीएसई',
+          subject: 'साइंस',
+          rating: 5,
+          text: 'बेस्ट साइंस टीचर! सर बहुत friendly और धैर्यवान हैं। तब तक समझाते हैं जब तक पूरी तरह समझ न आ जाए। मेरे साइंस के marks C से A+ हो गए।',
+          achievement: 'ग्रेड सुधार C से A+'
+        }
+      ]
     },
   },
 }
